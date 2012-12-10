@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/existingfontroot"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/existingfontcontextmenubackground"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/selectFontTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/select_font"
+        android:textColor="@color/black"
+        android:textSize="18dip" 
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+
+    <Spinner
+        android:id="@+id/chooseExistingFontSpinner"
+        android:layout_width="200dp"
+        android:layout_height="50dp" 
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/selectFontTextView"
+        android:layout_marginTop="10dp"/>
+
+    <LinearLayout 
+        android:id="@+id/okcancellinearlayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/chooseExistingFontSpinner"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp">
+    <Button
+        android:id="@+id/ok_button"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:background="@drawable/button"
+        android:text="@string/ok"
+        android:textColor="@color/white1" />
+
+    <Button
+        android:id="@+id/cancel_button"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:background="@drawable/button"
+        android:text="@string/cancel"
+        android:textColor="@color/white1" />
+</LinearLayout>
+</RelativeLayout>

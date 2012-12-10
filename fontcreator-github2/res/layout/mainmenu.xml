@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/blackboardbackground"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/main_image"
+        android:layout_width="250dp"
+        android:layout_height="265dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/fontmakertitle" />
+
+    <Button
+        android:id="@+id/new_font_button"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignBottom="@id/main_image"
+        android:background="@drawable/button"
+        android:text="@string/new_font"
+        android:textColor="@color/white1" />
+
+    <Button
+        android:id="@+id/existing_font_button"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/new_font_button"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button"
+        android:layout_marginTop="10dp"
+        android:text="@string/existing_font"
+        android:textColor="@color/white1" />
+
+    <Button
+        android:id="@+id/help_button"
+        android:layout_width="280dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/existing_font_button"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button"
+        android:text="@string/help"
+        android:textColor="@color/white1" />
+
+</RelativeLayout>

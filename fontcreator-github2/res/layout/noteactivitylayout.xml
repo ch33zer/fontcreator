@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blackboardbackground"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/notetitleview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="34dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/notetitle"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/email_note"
+            android:textSize="40sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/emailnotegroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="25dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/emailnote"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:text="@string/email_to_string"
+            android:textSize="30dp" />
+
+        <EditText
+            android:id="@+id/noteemailaddressbox"
+            android:layout_width="254dp"
+            android:layout_height="47dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:background="@android:drawable/editbox_background"
+            android:gravity="center" />
+
+        <Button
+            android:id="@+id/notesendbutton"
+            android:layout_width="120dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/bluesquarebutton"
+            android:text="@string/send_string"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/notepreview"
+        android:layout_width="255dp"
+        android:layout_height="250dp"
+        android:layout_below="@+id/notetitleview"
+        android:layout_centerHorizontal="true"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>
+    

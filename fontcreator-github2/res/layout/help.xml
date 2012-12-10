@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/blackboardbackground"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/help_textview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="30dp"
+        android:text="@string/help"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/help_instructions"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="@string/help_intro"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/choose_help_topic"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="@string/choose_help_topic"
+        android:textSize="16dp" />
+
+    <Button
+        android:id="@+id/drawscreen_help_button"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button"
+        android:text="@string/drawscreen"
+        android:textColor="@color/white1" />
+
+    <Button
+        android:id="@+id/existing_font_button"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button"
+        android:text="@string/existingfont"
+        android:textColor="@color/white1" />
+
+    <Button
+        android:id="@+id/export_help_button"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button"
+        android:text="@string/export_help"
+        android:textColor="@color/white1" />
+
+</LinearLayout>

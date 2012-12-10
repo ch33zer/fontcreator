@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/usefontdrawscreenmenuitem"
+          android:icon="@drawable/pencil"
+          android:title="@string/use_font"/>
+    <item android:id="@+id/displayfontdrawscreenmenuitem"
+          android:icon="@drawable/eye"
+          android:title="@string/display_font" />
+        <item android:id="@+id/mainmenudrawscreenmenuitem"
+          android:icon="@drawable/menu"
+          android:title="@string/main" />
+</menu>

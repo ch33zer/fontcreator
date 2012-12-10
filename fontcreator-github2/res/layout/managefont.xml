@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/blackboardbackground"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/edit_font_textview"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="@string/edit_font"
+        android:textColor="@color/white1"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/font_to_be_edited"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_font_textview"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="@string/serif"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/edit_button"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/font_to_be_edited"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="@string/edit_font"
+        android:textColor="@color/white1" />
+
+    <Button
+        android:id="@+id/export_button"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/edit_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button"
+        android:text="@string/export_font"
+        android:textColor="@color/white1" />
+
+    <Button
+        android:id="@+id/display_button"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/export_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button"
+        android:text="@string/display_font"
+        android:textColor="@color/white1" />
+
+    <Button
+        android:id="@+id/use_button"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/display_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button"
+        android:text="@string/use_font"
+        android:textColor="@color/white1" />
+    
+    <Button
+        android:id="@+id/delete_button"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/use_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button"
+        android:text="@string/delete_font"
+        android:textColor="@color/white1" />
+
+</RelativeLayout>

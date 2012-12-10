@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <color name="yellow1">#F9E60E</color>
+   <color name="yellow2">#F9F89D</color>
+   <color name="orange1">#F7BE45</color>
+   <color name="orange2">#F7D896</color>
+   <color name="blue1">#112cf3</color>
+   <color name="blue2">#2d44ec</color>
+   <color name="grey1">#ACA899</color>
+   <color name="white1">#FFFFFF</color>
+   <color name="white2">#DDDDDD</color>
+   <color name="green1">#54c42d</color>
+   <color name="green2">#429a24</color>
+   <color name="red1">#b72020</color>
+   <color name="red2">#981a1a</color>
+   <color name="ltblue">#7bb8d2</color>
+   <color name="black">#000000</color>
+   <color name="bluebutton">#1f487c</color>
+   <color name="transparentbuttonselected">#AAACA899</color>
+   <color name="transparent">#00FFFFFF</color>
+</resources>

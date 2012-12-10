@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, FontCreatorLocalActivity!</string>
+    <string name="app_name">Font Maker</string>
+    <string name="A">A</string>
+    <string name="prev">&lt;&lt;Prev</string>
+    <string name="next">Next>></string>
+    <string name="save">Save</string>
+    <string name="new_font">New Font</string>
+    <string name="existing_font">Existing Font</string>
+    <string name="help">Help</string>
+    <string name="select_font">Select Font</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="export_font">Export Font</string>
+    <string name="use_font">Use Font</string>
+    <string name="delete_font">Delete Font</string>
+    <string name="display_font">Display Font</string>
+    <string name="edit_font">Edit Font</string>
+    <string name="serif">Serif</string>
+    <string name="send">Send</string>
+    <string name="clear">Clear</string>
+    <string name="main">Main Menu</string>
+    <string name="UCLetters">A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</string>
+    <string name="LCLetters">a b c d e f g h i j k l m n o p q r s t u v w x y z</string>
+    <string name="numbers">0 1 2 3 4 5 6 7 8 9</string>
+    <string name="symbols">. , ; ! @ # $ % ^ &amp; * ( )</string>
+    <string name="send_string">SEND</string>
+    <string name="email_to_string">E-mail To:</string>
+    <string name="email_note">E-mail Note</string>
+    <string name="no">No</string>
+
+    <string-array name="Fonts_Array">
+        <item>Sample 1</item>
+        <item>Sample 2</item>
+        <item>Sample 3</item>
+    </string-array>
+
+    <string name="select_letter_text">Select a Letter:</string>
+    <string name="do_you_want_to_save_text">Do you want to save this character?</string>
+    <string name="name_new_font">Name your new font:</string>
+
+    <!-- Below are the strings relating to the help screen -->
+
+    <string name="help_intro">Font Maker is an easy-to-use app that is focused on simplicity for you.</string>
+    <string name="choose_help_topic">Choose a topic below:</string>
+    <string name="drawscreen">Draw Screen Help</string>
+    <string name="help_drawscreen">Help - Draw Screen</string>
+    <string name="existingfont">Existing Font Help</string>
+    <string name="help_existing_font">Help - Existing Font</string>
+    <string name="export_help">Export Font Help</string>
+
+</resources>

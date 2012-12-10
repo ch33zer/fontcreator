@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawActivityLinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/straightLineToolButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:src="@drawable/straightline" />
+
+        <ImageButton
+            android:id="@+id/freeDrawToolButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:src="@drawable/freedraw" />
+
+        <ImageButton
+            android:id="@+id/curvedLineToolButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:src="@drawable/curvedraw" />
+
+        <ImageButton
+            android:id="@+id/clearToolButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:src="@drawable/trash" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/undoButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:background="@drawable/bluesquarebutton"
+            android:src="@drawable/backbutton" />
+
+        <Button
+            android:id="@+id/currentLetterDisplayButton"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="3"
+            android:background="@drawable/bluesquarebutton"
+            android:gravity="center"
+            android:textColor="@color/white1"
+            android:text="@string/A"
+            android:textSize="23sp" />
+
+        <ImageButton
+            android:id="@+id/redoButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:background="@drawable/bluesquarebutton"
+            android:src="@drawable/forwardbutton" />
+    </LinearLayout>
+
+    <com.google.code.fontcreator.DrawPanel
+        android:id="@+id/drawPanel"
+        android:layout_width="match_parent"
+        android:layout_height="355sp"
+        android:background="@color/white1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/prevButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:textColor="@color/white1"
+            android:background="@drawable/bluesquarebutton"
+            android:text="@string/prev"
+            android:textSize="27sp" />
+
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:textColor="@color/white1"
+            android:background="@drawable/bluesquarebutton"
+            android:text="@string/save"
+            android:textSize="27sp" />
+
+        <Button
+            android:id="@+id/nextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:textColor="@color/white1"
+            android:background="@drawable/bluesquarebutton"
+            android:text="@string/next"
+            android:textSize="27sp" />
+    </LinearLayout>
+
+</LinearLayout>
